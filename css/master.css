@@ -537,14 +537,6 @@ background-color: #f4f4f4;
     padding-left: 380px;
 }
 
-@media (max-width:767px) {
-    .blog{
-        height: 140vh;
-    }
-    .blog .container{
-        padding-left: 50px;
-    }
-}
 .blog .box{
     position: relative;
 }
@@ -597,6 +589,14 @@ background-color: #f4f4f4;
     }
 }
 
+@media (max-width:767px) {
+    .blog{
+        height: 140vh;
+    }
+    .blog .container{
+        padding-left: 50px;
+    }
+}
 /* start request section */
 .request{
     padding-bottom: var(--padding-bottom);
